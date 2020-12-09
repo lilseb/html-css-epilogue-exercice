@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: lightgray
+}
+header{
+    margin-top: 0;
+    background-image: url("../img/banner.jpg");
+    height: 500px;
+    position: relative;
+}
+
+#headerh1{
+    color: white;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 150px;  
+    
+}
+
+#headerhr{
+    position: absolute;
+    width: 400px;
+    margin-top: 210px;
+    margin-left: 
+}
