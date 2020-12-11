@@ -1,6 +1,9 @@
 body{
     margin: 0;
-    background-color: lightgray
+    background-color: lightgray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   
 }
 header{
     margin-top: 0;
@@ -12,14 +15,310 @@ header{
 #headerh1{
     color: white;
     position: absolute;
-    margin-left: 45%;
-    margin-top: 150px;  
+    margin-left: 40%;
+    margin-top: 95px;  
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
     
 }
 
 #headerhr{
     position: absolute;
     width: 400px;
-    margin-top: 210px;
-    margin-left: 
+    margin-top: 220px;
+    margin-left: 34%;
+}
+
+#headerh3{
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 250px;
+
+}
+/* FIN HEADER */
+#sectionmagna{
+    background-color: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.far{
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 50%;
+    font-size:  50px;
+    padding: 5px;
+}
+#sectionmagna div h2{
+    letter-spacing: 2px;
+    
+}
+
+#sectionmagna div p{
+    width: 55%;
+    margin: 10px auto;
+}
+
+#sectionmagna div button{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 7%;
+}
+
+#sectionmagna div button:hover{
+    border-color: red;
+}
+
+/* CARTES 1,2 */
+#sectioncartes{
+    max-width: 425px;
+    margin-top: 50px;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-bottom: 50px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#cartes12{
+    display: flex;
+    
+}
+/* CARTE1 */
+#cartefeugiat{
+    border: 1px lightgray solid;
+    /* width: 425px;
+    margin-top: 50px; */
+    flex: 1; 
+    margin: 50px;
+    position: relative;
+    background-color: #fff;
+    align-items:center;
+    flex-direction: column;
+    
+    /* position: relative; */
+}
+
+#feugiat{
+    background-image: url("../img/pic01.jpg");
+    max-width: 425px;
+    height: 200px;
+    /* width: 365px;
+    height: 195px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s; */
+   
+}
+#feugiat:hover{
+    -webkit-transform:scale(1.25);
+    -webkit-transition: all 1s ease;
+    /* transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05); */
+}
+
+
+.carteh3{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 80px;
+    color: white;
+
+}
+
+.carteh3:hover{
+    -webkit-transform:scale(1,25);
+    -webkit-transition: all 1s ease;
+}
+
+
+.cartetexte{
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.morebutton{
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 7%;
+    margin-left: 40%;
+    
+}
+
+.morebutton:hover{
+    border-color: red;
+}
+/* CARTE2 */
+#carteblandit{
+    border: 1px lightgray solid;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    /* margin-left: 20px; */
+    background-color: #fff; 
+    flex: 1; 
+    margin: 50px;
+    position: relative;
+    align-items:center;
+    flex-direction: column;
+}
+
+#blandit{
+    background-image: url("../img/pic02.jpg");
+    max-width: 100%;
+    height: 200px;
+  
+
+}
+
+#blandit:hover{
+    -webkit-transform:scale(1.25);
+    -webkit-transition: all 1s ease;
+}
+
+
+/* cartes 3,4 */
+
+#cartes34{
+    display: flex;
+    
+}
+/* CARTE3 */
+#carteloremmassa{
+    border: 1px lightgray solid;
+    /* width: 425px;
+    margin-top: 50px; */
+    flex: 1; 
+    margin: 50px;
+    position: relative;
+    background-color: #fff;
+    align-items:center;
+    flex-direction: column;
+    
+    /* position: relative; */
+}
+
+#loremmassa{
+    background-image: url("../img/pic03.jpg");
+    max-width: 425px;
+    height: 200px;  
+}
+
+#loremmassa:hover{
+    -webkit-transform:scale(1.25);
+    -webkit-transition: all 1s ease;
+}
+
+
+.cartetexte{
+    width: 350px;
+    text-align: center;
+}
+
+
+
+/* CARTE4 */
+#carteipsum{
+    border: 1px lightgray solid;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    /* margin-left: 20px; */
+    background-color: #fff; 
+    flex: 1; 
+    margin: 50px;
+    position: relative;
+    align-items:center;
+    flex-direction: column;
+}
+
+#ipsum{
+    background-image: url("../img/pic04.jpg");
+    max-width: 100%;
+    height: 200px;
+}
+
+#ipsum:hover{
+    -webkit-transform:scale(1.25);
+    -webkit-transition: all 1s ease;
+    
+}
+/* FIN CARTES */
+
+#sectionetiam{
+    background-color:lightgray;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+#sectionetiam h2{
+    letter-spacing: 2px;
+    
+    
+}
+
+#sectionetiam  p{
+    width: 55%;
+    margin: 10px auto;
+    padding: 50px;
+}
+
+#getstartedbutton{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 7%;
+}
+
+#getstartedbutton:hover{
+    border-color: red;
+}
+
+#hretiam{
+    width: 100px;
+    
+}
+
+/* FOOTER */
+#footer{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#footericons{
+    margin-bottom: 40px;
+    letter-spacing: 10px;
+}
+
+#footercopy{
+    margin-bottom: 70px;
+}
+
+#footercopy>span{
+    border-bottom: black dotted;
+
 }
